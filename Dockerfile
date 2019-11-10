@@ -9,7 +9,7 @@ ENV HOME /root
 
 # ...put your own build instructions here...
 RUN rm /etc/nginx/sites-enabled/default
-ADD ./data/conf/webapp.conf /etc/nginx/sites-enabled/webapp.conf
+COPY ./data/conf/webapp.conf /etc/nginx/sites-enabled/webapp.conf
 RUN mkdir /home/app/webapp
 # This copies your web app with the correct ownership.
 COPY --chown=app:app ./data/apps/test-rails-app /home/app/webapp
