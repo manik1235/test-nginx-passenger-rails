@@ -14,6 +14,8 @@ RUN mkdir /home/app/webapp
 # This copies your web app with the correct ownership.
 COPY --chown=app:app ./data/apps/test-rails-app /home/app/webapp
 WORKDIR /home/app/webapp
+RUN gem install bundler:2.0.2
+RUN bundle update rake
 RUN bundle install --local
 
 # Clean up APT when done.
