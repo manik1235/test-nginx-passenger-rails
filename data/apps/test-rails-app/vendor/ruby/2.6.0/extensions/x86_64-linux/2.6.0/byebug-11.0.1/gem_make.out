@@ -1,0 +1,19 @@
+current directory: /home/andrew/repos/docker/test-nginx-passenger-rails/data/apps/test-rails-app/vendor/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/home/andrew/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/andrew/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20191111-21337-14fwhyo.rb extconf.rb
+creating Makefile
+
+current directory: /home/andrew/repos/docker/test-nginx-passenger-rails/data/apps/test-rails-app/vendor/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/andrew/repos/docker/test-nginx-passenger-rails/data/apps/test-rails-app/vendor/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/andrew/repos/docker/test-nginx-passenger-rails/data/apps/test-rails-app/vendor/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20191111-21337-l61jjx/byebug

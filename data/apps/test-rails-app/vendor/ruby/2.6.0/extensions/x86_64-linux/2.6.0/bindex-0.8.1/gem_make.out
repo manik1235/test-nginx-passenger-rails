@@ -1,0 +1,15 @@
+current directory: /home/andrew/repos/docker/test-nginx-passenger-rails/data/apps/test-rails-app/vendor/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/home/andrew/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/andrew/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20191111-21337-qxhkb2.rb extconf.rb
+creating Makefile
+
+current directory: /home/andrew/repos/docker/test-nginx-passenger-rails/data/apps/test-rails-app/vendor/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/andrew/repos/docker/test-nginx-passenger-rails/data/apps/test-rails-app/vendor/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/andrew/repos/docker/test-nginx-passenger-rails/data/apps/test-rails-app/vendor/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20191111-21337-36hvaq/skiptrace/internal
